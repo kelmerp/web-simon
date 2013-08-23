@@ -1,0 +1,49 @@
+.header {
+    margin: 20px auto;
+    width: 440px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+div.board {
+  margin: auto;
+  width: 440px;
+  height: 440px;
+}
+
+.board div {
+ 	width:200px;
+ 	height:200px;
+ 	border:solid black 2px;
+ 	margin:2px;
+  float: left;
+}
+
+.board div.green {
+  /*background-color: #003300;*/
+  background-color: darkgreen;
+}
+
+.board div.red {
+  /*background-color: #660000;*/
+  background-color: darkred;
+}
+
+.board div.yellow {
+  background-color: #c4a300;
+}
+
+.board div.blue {
+  /*background-color: #00008B;*/
+  background-color: darkblue;
+}
+
+.start{
+	border-radius: 10px;
+	border: red solid 2px;
+	background: red;
+	color:white;
+	margin:10px auto;
+	display:inline-block;
+	padding:5px;
+ }
